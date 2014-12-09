@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+
+<title>Convert me!</title>
+<script>
+	<!--
+	function changeimg()
+	{
+		var x = document.images.length;
+		for(var i = x-1; i >= 0; i--)
+		{
+			var alt = document.images[0].getAttribute("alt");
+			var textnode = document.createTextNode(alt);
+			document.images[0].parentElement.replaceChild(textnode, document.images[0]);
+		}
+	}
+	// -->
+</script>
+	<table style="width:600px; border:none;">
+  <tr>
+    <td><img style="height:100px;" alt="Schadenfreude" src="ausdruck_1.gif" width="100" />
+    <td><img style="height:100px;" alt="Erstaunen" src="ausdruck_2.gif" width="100" />
+    <td><img style="height:100px;" alt="Skepsis" src="ausdruck_3.gif" width="100" />
+    <td><img style="height:100px;" alt="Betretenheit" src="ausdruck_4.gif" width="100" />
+  </tr>
+  <tr>
+    <td>ist die schönste Freude, kann aber Feinde 
+	schaffen
+    <td>gebar die Philosophie und wird von 
+	Rechthabern immer wieder unterschätzt
+    <td>ist bisweilen angebracht, sollte aber nicht 
+	das weitere Dazulernen behindern
+    <td>ist sehr unangenehm, währt aber nicht ewig
+  </tr>
+</table>
+
+  <br/>
+  <input type="button" value="Knopf" onclick="changeimg()"/>
